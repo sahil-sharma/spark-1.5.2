@@ -47,7 +47,8 @@ RUN mkdir /var/run/sshd \
     && echo '    StrictHostKeyChecking no' >> /etc/ssh/ssh_config \
     && echo 'SSHD: ALL' >> /etc/hosts.allow
 
-EXPOSE 8080
+#Ports for spark
+EXPOSE 8080 4040-4060 7077
 
 
 # Spark
