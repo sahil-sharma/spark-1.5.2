@@ -1,3 +1,4 @@
+#spark image
 FROM ubuntu:14.04
 
 MAINTAINER sahil.sharma@formcept.com
