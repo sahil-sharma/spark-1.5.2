@@ -7,6 +7,7 @@ RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends \
       curl \
+      links \
       supervisor \
       nano \
       openssh-server \
